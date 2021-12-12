@@ -65,8 +65,6 @@ textarea {
     transition:  all 2s;
 }
 
-/* секция промо */
-
 .section_promo {
     position: relative;
     margin-top: -180px;
@@ -239,8 +237,6 @@ textarea {
     margin-top: 58 px;
 }
 
-/* section_about-us */
-
 .section_about-us {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -300,8 +296,6 @@ textarea {
     line-height: 24px;
     z-index: 1;
 }
-
-/* .section_master-chef */
 
 .section_master-chef {
     background: url(../img/chef-bg.png) no-repeat center / cover;
@@ -369,8 +363,6 @@ textarea {
     left: 0;
 }
 
-/* section_book */
-
 .section_book {
     padding-top: 100px;
 }
@@ -423,8 +415,6 @@ textarea {
     margin-bottom: 45px;
 }
 
-/* .section_chocolate */
-
 .section_chocolate {
     background: url(../img/specialtys_bg.png) no-repeat center / cover;
 }
@@ -455,8 +445,6 @@ textarea {
 .slider_selected {
     background: #FFFFFF;
 }
-
-/* delicious-menu */
 
 .delicious-menu {
     padding-top: 100px;
@@ -518,8 +506,6 @@ textarea {
     margin-top: 5px;
     margin-bottom: 35px;
 }
-
-/* section_events */
 
 .section_events {
     background: url(../img/specialtys_bg.png) no-repeat center / cover;
@@ -586,8 +572,6 @@ textarea {
     padding-left: 20px;
 }
 
-/* random_imgs */
-
 .random_imgs-container {
     display: flex;
     justify-content: center;
@@ -597,8 +581,6 @@ textarea {
     max-width: 480px;
     max-height: 480px;
 }
-
-/* section_contact */
 
 .button_adapt_container {
     display: none;
@@ -665,7 +647,6 @@ textarea {
     width: 100%;
 }
 
-/* footer */
 
 .footer {
     padding: 44px 0;
@@ -680,16 +661,6 @@ textarea {
     font-size: 12px;
     line-height: 12px; 
 }
-
-
-
-
-
-
-
-
-/* анимация */
-
 
 .nav_item:hover {
     color: #E8C300;
@@ -727,13 +698,6 @@ textarea {
     color: #bd9d01;;
 }
 
-
-
-
-
-
-/* адаптация */
-
 @media only screen and (max-width: 1450px) {
     .contact_input {
         max-width: 1280px;
@@ -742,7 +706,6 @@ textarea {
     }
 } 
 
-/* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
     .container {
         max-width: 95%;
@@ -816,7 +779,6 @@ textarea {
     }
 }
 
-/* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
     .container {
         max-width: 85%;
@@ -880,7 +842,6 @@ textarea {
     }
 }
 
-/* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
     .section_promo {
         padding-top: 240px;
@@ -1009,7 +970,6 @@ textarea {
     
 }
 
-/* Extra small Devices, Phones */
 @media only screen and (max-width: 480px) {
     .team_menu {
         display: none;
